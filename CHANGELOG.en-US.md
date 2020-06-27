@@ -3,6 +3,30 @@ title: Change Log
 toc: hidden
 ---
 
+### 2.5.11
+
+- Fix
+  - Fix the issue of incorrect Chinese currency unit of `Amount` component[#675](https://github.com/didi/mand-mobile/issues/675)
+
+### 2.5.10
+
+`2020-04-30`
+
+- Fix
+  - Fix the issue of incorrect font line-height of `Button` under text link type[#663](https://github.com/didi/mand-mobile/issues/663)
+  - Fix the issue that `jpgencoder` in` ImageReader` may be repeatedly loaded (such as in micro front-end mode)
+  - Fix `TabBar` size calculation compatibility issue
+
+### 2.5.9
+
+`2020-03-26`
+
+- Feat
+  - `CheckGroup` adds method `toggleAll`, used to Select All or Deselect[#648](https://github.com/didi/mand-mobile/issues/648)
+
+- Fix
+  - Fix `TextAreaItem` has wrong height,when it's filled with asynchronous content
+
 ### 2.5.8
 
 `2020-02-04`
@@ -80,7 +104,7 @@ toc: hidden
 - Fix
   - Fix the problem that `Toast` is covered by `Landscape`
   - Fix the problem of `TabBar` rendering crash[#567](https://github.com/didi/mand-mobile/issues/567)
-  - Remove the useless style variables of `Textarea` 
+  - Remove the useless style variables of `Textarea`
 
 ### 2.5.1
 
@@ -107,7 +131,7 @@ toc: hidden
 - Fix
   - fix page flipping problem when sliding out of touch area in `Swiper`[#540](https://github.com/didi/mand-mobile/issues/540)
   - modify button background color setting property to `background` and the container element to `div`
-  
+
 ### 2.4.2
 
 `2019-08-13`
@@ -123,13 +147,13 @@ toc: hidden
 - Fix
   - Fix the problem that `InputItem` cannot limit the max length of characters when using virtual keyboard input[#524](https://github.com/didi/mand-mobile/issues/524)
   - Fix `Amount` with the loss of precision in animation mode
-  
+
 ### 2.4.0
 
 `2019-07-29`
 
 - Design
-  - 🍭Financial design specification update, the title bar `border-radius` of `Popup` based components changed from `8px` to `40px` (Large-Radius pattern), `border-radius` of `Dialog` changed from `8px` to `12px` 
+  - 🍭Financial design specification update, the title bar `border-radius` of `Popup` based components changed from `8px` to `40px` (Large-Radius pattern), `border-radius` of `Dialog` changed from `8px` to `12px`
 
   ![Design](https://pt-starimg.didistatic.com/static/starimg/img/FLXmXRBcDX1564369346467.jpg)
 
@@ -196,7 +220,7 @@ toc: hidden
 - Fix
   - fix 'Slider` progress bar width calculation error[#472](https://github.com/didi/mand-mobile/issues/472)
   - fix the problem that the `NumberKeyboard` keys may be clicked incorrectly[#477](https://github.com/didi/mand-mobile/issues/477)
-  
+
 ### 2.3.0
 
 `2019-06-13`
@@ -223,7 +247,7 @@ toc: hidden
 - Fix
   - Fix autoplay invalidation when `Swiper` property isLoop is true[#452](https://github.com/didi/mand-mobile/issues/452)
   - Fix error caused by closing dialog, when `Dialog` property `maskClosable` is true[#471](https://github.com/didi/mand-mobile/issues/471)
-  
+
 ### 2.2.4
 
 `2019-05-26`
@@ -231,14 +255,14 @@ toc: hidden
 - Fix
   - Fix the problem that the first and last items of `TabBar` cannot be automatically repaired after they are selected[#434](https://github.com/didi/mand-mobile/issues/434)
   - Texts of `TabBar` items cannot be selected
-  
+
 ### 2.2.3
 
 `2019-05-25`
 
 - Fix
   - Utility style `hairline` replaces `width` and `height` with `border`
-  
+
 ### 2.2.2
 
 `2019-05-11`
@@ -252,7 +276,7 @@ toc: hidden
   - `DatePicker` prop `custom-types` support `HH`[#433](https://github.com/didi/mand-mobile/issues/433)
   - Add `onCancel` to the type declaration of `Dialog`
   - Optimize some components documentation
-  
+
 ### 2.2.1
 
 `2019-04-22`
@@ -265,7 +289,7 @@ toc: hidden
 - Fix
   - Fix the exception thrown by `Picker` when setting a wrong `default-index`[#416](https://github.com/didi/mand-mobile/issues/416)
   - Optimize some component styles
-  
+
 ### 2.2.0
 
 `2019-04-13`

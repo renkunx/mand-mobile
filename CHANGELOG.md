@@ -3,6 +3,32 @@ title: 更新日志
 toc: hidden
 ---
 
+### 2.5.11
+
+`2020-05-29`
+
+- Fix
+  - 修复`Amount`组件中文货币单位不正确的问题[#675](https://github.com/didi/mand-mobile/issues/675)
+
+### 2.5.10
+
+`2020-04-30`
+
+- Fix
+  - 修复`Button`在文字链接类型下字体行高不正确的问题[#663](https://github.com/didi/mand-mobile/issues/663)
+  - 修复`ImageReader`中`jpgencoder`可能被重复加载的问题（如微前端模式下）
+  - 修复`TabBar`尺寸计算不准确的问题
+
+### 2.5.9
+
+`2020-03-26`
+
+- Feat
+  - `CheckGroup`增加方法`toggleAll`用于全选/全不选和反选[#648](https://github.com/didi/mand-mobile/issues/648)
+
+- Fix
+  - 修复`TextAreaItem`当异步内容填充时，组件高度不正确的问题
+
 ### 2.5.8
 
 `2020-02-04`
@@ -232,7 +258,7 @@ toc: hidden
 - Fix
   - 修复`TabBar`第一项和最后一项选中后无法自动修复位置的问题[#434](https://github.com/didi/mand-mobile/issues/434)
   - `TabBar`选项内部文字不可选中
-  
+
 ### 2.2.3
 
 `2019-05-25`
